@@ -1,14 +1,14 @@
-// import {
-//     RxCrop,
-//     RxDesktop,
-//     RxPencil2,
-//     RxReader,
-//     RxRocket,
-//     RxAccessibility,
-//     RxHome,
-//     RxPerson,
-//     RxDashboard,
-//   } from "react-icons/rx"
+import {
+    RxCrop,
+    RxDesktop,
+    RxPencil2,
+    RxReader,
+    RxRocket,
+    RxAccessibility,
+    RxHome,
+    RxPerson,
+    RxDashboard,
+  } from "react-icons/rx"
   
   export const Socials = [
     {
@@ -28,17 +28,17 @@
   export const NavLinks = [
     {
       name: "Home",
-    //   icon: RxHome,
+      icon: RxHome,
       link: "/",
     },
     {
       name: "About me",
-    //   icon: RxPerson,
+      icon: RxPerson,
       link: "/about-me",
     },
     {
       name: "Projects",
-    //   icon: RxDashboard,
+      icon: RxDashboard,
       link: "/my-projects",
     },
   ];
@@ -75,37 +75,37 @@
   
   export const ServiceData = [
     {
-    //   icon: RxReader,
+      icon: RxReader,
       title: "Seo",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: "/assets/space/SpaceCity7.jpeg",
     },
     {
-    //   icon: RxCrop,
+      icon: RxCrop,
       title: "Development",
       content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
       backgroundImage: "/assets/space/SpaceCity9.jpeg",
     },
     {
-    //   icon: RxPencil2,
+      icon: RxPencil2,
       title: "Branding",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: "/assets/space/SpaceCity1.jpg",
     },
     {
-    //   icon: RxDesktop,
+      icon: RxDesktop,
       title: "Design",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: "/assets/space/SpaceCity6.jpeg",
     },
     {
-    //   icon: RxAccessibility,
+      icon: RxAccessibility,
       title: "Management",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: "/assets/space/SpaceCity5.jpeg",
     },
     {
-    //   icon: RxRocket,
+      icon: RxRocket,
       title: "Production",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: "/assets/space/SpaceCity8.jpeg",

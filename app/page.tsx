@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className='text-[50px] text-white max-w-[500px]'>Transforming ideas into {" "}<span className='text-red-500'> Digital Reality</span></h1>
         <p className='text-[16px] text-gray-200 md:text-greay-400 mb-10 md:pb-2 max-w-[400px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  
         </p>
-        <div className='relative w-[100px] h-[100px] md:h-[160pxx] md:w-[160px] mt-10'>
+        <div className='relative w-[100px] h-[100px] md:h-[160px] md:w-[160px] mt-10'>
         <Image
         src="/assets/rounded-text.png"
         alt="projects"

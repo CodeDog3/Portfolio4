@@ -1,7 +1,7 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client"
 
 import { useState, useEffect } from 'react'
-import React from 'react'
 import { AnimatePresence } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { NavLinks } from '../constants'
@@ -31,7 +31,7 @@ const sidebar = () => {
     
           return () => clearTimeout(timeout);
         }
-    }, [isRouting]);
+    }, [isRouting, path]);
 
     return (
         <div className='fixed right-8 top-[40%] z-[20] h-[200px] w-[48px] rounded-full bg-gray-500'>
